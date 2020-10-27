@@ -21,7 +21,7 @@ client.on('guildMemberRemove', async member => {
       if (member.guild.id !== channelData.guild)
         return;
       const channel = client.channels.resolve(channelData.channel);
-      channel.send(format(channelData.message, member.user.username, member.guild.name));
+      channel.send(format(channelData.message, member.guild.name, member.displayName, member.user.tag, member.user.id));
     })();
   }));
 });

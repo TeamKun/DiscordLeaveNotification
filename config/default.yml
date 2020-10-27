@@ -8,4 +8,4 @@ locale: ja
 channels:
   - guild: "000000000000000000" # DiscordサーバーID
     channel: "000000000000000000" # DiscordチャンネルID
-    message: "`%s` left `%s`" # メッセージ
+    message: "`%2$s`(`%3$s`,`%4$s`) left `%1$s`" # メッセージ
