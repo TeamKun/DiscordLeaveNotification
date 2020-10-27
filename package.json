@@ -13,10 +13,11 @@
   },
   "license": "MIT",
   "dependencies": {
-    "config": "^3.3.1",
-    "discord.js": "^12.2.0",
+    "config": "^3.3.2",
+    "discord.js": "^12.4.1",
     "i18n": "^0.10.0",
-    "js-yaml": "^3.14.0"
+    "js-yaml": "^3.14.0",
+    "string-placeholder": "^1.0.2"
   },
   "devDependencies": {}
 }
